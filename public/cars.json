@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Audi A3",                    
+        "details": "The Audi A3 has a dynamic exterior design that reveals each muscular and chiseled detail and the MMI® touch display infotainment system features a 10.1″ screen.",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/09/2018_audi_a3_sedan_angularfront.jpg",
+        "price": "4,880,000"       
+               
+    },
+    {
+        "name": "Honda Accord Turbo",                    
+        "details": "The Honda Accord Turbo has a perfect blend of elegance and fun. It looks robotic and is one of the most unique sedan cars in the Bangladeshi market. ",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2021/06/189153678_150997267050491_1598685549937348513_n.jpg",
+        "price": "5,800,000"       
+               
+    },
+    {
+        "name": "Honda CR-V Turbo",                    
+        "details": "Honda CR-V Turbo is a direct competitor of Nissan X-trail, Toyota RAV4 and Mazda CX-5. The CR-V is built with a spacious interior to adapt to the comfort and a luxurious .",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2021/02/honda_canada_honda_crv_0.jpg",
+        "price": "5,550,000"       
+               
+    },
+    {
+        "name": "BMW X3",                    
+        "details": "The BMW X3 is a small compact luxury crossover SUV. The X3 ranks at the top of the luxury compact SUV class because of its spacious interior, easy-to-use features, strong engine performance, smooth handling.",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/10/2020-BMW-X2-SUV-blue-1.jpg",
+        "price": "54,896,000"       
+               
+    },
+    {
+        "name": "Suzuki Dzire",                    
+        "details": "Suzuki Dzire is one of the most fuel-efficient cars in this segment. Because of the manual transmission system, this machine can produce better power figures. It moves smoothly in a heavy rush and you do not get tired of driving.",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2021/05/Suzuki-Dzire-Price-in-BD.png",
+        "price": "1,700,000"       
+               
+    },
+    {
+        "name": "Nissan Patrol",                    
+        "details": "The Nissan Patrol is an off-road large family 4×4 SUV. It offers a level of luxury and value. The Nissan Patrol is a series of four-wheel-drive vehicles manufactured by Nissan in Japan and sold throughout the world. ",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/10/nissan-petrol.jpg",
+        "price": "57,600,000"       
+               
+    },
+    {
+        "name": "KIA SONET",                    
+        "details": "The Kia Sonet is a compact SUV with the tough built quality and enough engine power so it can take on any type of road with ease. It offers the power of 120 PS .",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2021/08/Kia-Sonet.png",
+        "price": "3,000,000"       
+               
+    },
+    {
+        "name": "Hyundai Elantra",                    
+        "details": "The Hyundai Elantra is a compact car and it offers a comfortable ride. It offers tons of features for the price, excellent fuel economy,",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/10/elantra-dark-silver.jpg",
+        "price": "4,549,000"       
+               
+    },
+    {
+        "name": "KIA SONET",                    
+        "details": "The Kia Sonet is a compact SUV with the tough built quality and enough engine power so it can take on any type of road with ease. It offers the power of 120 PS .",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2021/08/Kia-Sonet.png",
+        "price": "3,000,000"       
+               
+    },
+    {
+        "name": "Toyota Camry",                    
+        "details": "The 2020 Toyota Camry has all the basic qualities that a sedan offers. It provides a more classy stylish comfortable ride",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/10/camry-silver.png",
+        "price": "8,900,000"       
+               
+    },
+    {
+        "name": "Mitsubishi Pajero Sports",                    
+        "details": "The Mitsubishi Pajero Sports is a well-made, well-priced family-friendly wagon. There are five-seat and seven-seat versions .",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/10/mitsupajerosport-black.jpg",
+        "price": "8,837,000"       
+               
+    },
+    {
+        "name": "Renault Duster",                    
+        "details": "Renault Duster is a 1500cc SUV within budget which brand  comes with a 1498cc powerful engine which provides 142 Nm .",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/09/Renault-Duster-Price-in-BD.png",
+        "price": "3,300,000"       
+               
+    },
+    {
+        "name": "Mercedes-Benz GLC",                    
+        "details": "The Marcedes-Benz GLC is a 5 seater compact luxury crossover SUV with an Automatic (Torque Converter). It gives a ground clearance of 201 mm and boot space of 580 liters. ",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2020/10/marcedes-benz-GLC-olive.jpg",
+        "price": "14,500,000"       
+               
+    },
+    {
+        "name": "Audi Q8",                    
+        "details": "The Audi Q8 is the flagship mid-size luxury crossover SUV of Audi. The exterior of the Q8 has an octagonal-shaped grille, LED headlamps, 22-inch alloy wheels, frame-less doors, silver skid plates and LED taillights.  .",                          
+        "img": "https://4wheelerbd.com/wp-content/uploads/2021/07/Aud_Q8_55_TFSI_Quattro_2020_Specs.jpg",
+        "price": "18,300,000"       
+               
+    }
+    
+]
