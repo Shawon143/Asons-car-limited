@@ -1,18 +1,26 @@
 import React, { useEffect, useState } from "react";
 import { Button, Card, Col } from "react-bootstrap";
+// import useAuth from "../../../hooks/useAuth";
 // import { Link } from "react-router-dom";
 // import "./singlecar.css";
 
 const ManageSingleProduct = (props) => {
   const { _id, name, img, price, details } = props.service;
+  // const { isLoading } = useAuth();
 
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
     fetch(`https://secure-savannah-57360.herokuapp.com/cars`)
       .then((res) => res.json())
-      .then((data) => setCars(data));
+      .then((data) => {
+        setCars(data);
+      });
   }, []);
+
+  // if (isLoading) {
+  //   return <Spinner animation="border" variant="primary" />;
+  // }
 
   const handleDelete = (id) => {
     const confirm = window.confirm("Are you sure for you delete this car ?");

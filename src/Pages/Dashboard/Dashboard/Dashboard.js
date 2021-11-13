@@ -63,11 +63,26 @@ const Dashboard = () => {
       </Col>
       <Col md={9} xs={8}>
         <Switch>
-          <Route exact path={path}>
+          {/* <Route exact path={path}>
             <Myorder></Myorder>
-          </Route>
+          </Route> */}
+
+          {!admin && (
+            <Route exact path={path}>
+              <Myorder></Myorder>
+            </Route>
+          )}
+          {admin && (
+            <Route exact path={path}>
+              <MakeAdmin></MakeAdmin>
+            </Route>
+          )}
+
           <AdminRoute path={`${path}/makeAdmin`}>
             <MakeAdmin></MakeAdmin>
+          </AdminRoute>
+          <AdminRoute path={`${path}/myorder`}>
+            <Myorder></Myorder>
           </AdminRoute>
           <AdminRoute path={`${path}/addcar`}>
             <AddCar></AddCar>
