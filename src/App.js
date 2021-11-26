@@ -14,7 +14,7 @@ import Dashboard from "./Pages/Dashboard/Dashboard/Dashboard";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-dark">
       <AuthProvider>
         <Router>
           <Header></Header>

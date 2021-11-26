@@ -13,7 +13,9 @@ const Products = () => {
 
   return (
     <div>
-      <h1>Our Cars</h1>
+      <h1 className="text-white ">Our Cars</h1>
+      <hr />
+
       <Container>
         <Row xs={1} md={3} className="g-4 mt-3">
           {cars.slice(0, 6).map((service) => (

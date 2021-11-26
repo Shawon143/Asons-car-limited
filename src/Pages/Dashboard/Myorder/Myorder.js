@@ -34,11 +34,11 @@ const Myorder = () => {
   };
   return (
     <div>
-      <h3 className="my-3">
-        Welcome <span className="text-primary">{user.displayName}</span> Your
+      <h3 className="my-3 text-white">
+        Welcome <span className="text-white">{user.displayName}</span> Your
         Order : {orders.length}{" "}
       </h3>
-      <Container className="text-start">
+      <Container className="text-start text-white">
         <ul>
           {orders.map((service) => (
             <li className="mb-4">

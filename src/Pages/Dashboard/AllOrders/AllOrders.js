@@ -17,12 +17,12 @@ const AllOrders = () => {
 
   return (
     <div>
-      <h2 className="mt-4">ALl Orders : {allorders.length} </h2>
+      <h2 className="mt-4 text-white">ALl Orders : {allorders.length} </h2>
 
       <Container>
         {/* {load?():()} */}
         {load ? (
-          <Row xs={1} md={3} className="g-4 mt-3">
+          <Row xs={1} md={2} className="g-4 mt-3">
             {allorders.map((service) => (
               <SIngleFromOrders
                 service={service}

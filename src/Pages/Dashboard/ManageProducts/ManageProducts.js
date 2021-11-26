@@ -18,7 +18,7 @@ const ManageProducts = () => {
 
   return (
     <div>
-      <h1>Manage Products</h1>
+      <h1 className="text-white my-3">Manage Products</h1>
       <Container>
         {load ? (
           <Row xs={1} md={3} className="g-4 mt-3">

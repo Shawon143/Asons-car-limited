@@ -30,7 +30,7 @@ const MakeAdmin = () => {
   };
   return (
     <div>
-      <h1 className="my-4"> Make Admin Page</h1>
+      <h1 className="my-4 text-white"> Make Admin Page</h1>
       <Container>
         <form onSubmit={handleAdmin}>
           <input

@@ -17,7 +17,7 @@ const AddCar = () => {
   };
   return (
     <div>
-      <h2 className="my-3">ADD A Car</h2>
+      <h2 className="my-3 text-white">ADD A Car</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="my-5 w-50 mx-auto">
         <input
           className="form-control mb-3"

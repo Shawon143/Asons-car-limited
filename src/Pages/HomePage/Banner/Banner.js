@@ -20,7 +20,7 @@ const Banner = () => {
           shop.
         </p>
         <Link to="/cars">
-          <Button variant="secondary">View Cars</Button>
+          <Button variant="dark">View Cars</Button>
         </Link>
       </div>
     </div>

@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 const Footer = () => {
   return (
     <>
-      <div className="bg-primary p-4 text-light text-start">
+      <div className="bg-dark border-top p-4 text-light text-start">
         <Row>
           <Col className="p-5">
             <h1>Car Asons Limited</h1>

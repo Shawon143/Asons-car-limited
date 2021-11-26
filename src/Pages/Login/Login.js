@@ -66,8 +66,8 @@ const Login = () => {
   };
   return (
     <div>
-      <h2 className="mt-3">Sign In WIth your Email</h2>
-      <Container className="text-start my-5 login-card card">
+      <h2 className="mt-3 text-white">Sign In WIth your Email</h2>
+      <Container className="text-start bg-dark text-white my-5 login-card card">
         <Form className="shadow p-4" onSubmit={handleLogin}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>

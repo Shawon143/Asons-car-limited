@@ -18,7 +18,7 @@ const ViewCars = () => {
 
   return (
     <div>
-      <h1 className="my-4">All Brand Cars</h1>
+      <h1 className="my-4 text-white">All Brand Cars</h1>
       <Container>
         {load ? (
           <Row xs={1} md={3} className="g-4 mt-3">

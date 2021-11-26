@@ -19,7 +19,11 @@ const Dashboard = () => {
 
   return (
     <Row className="m-0">
-      <Col md={2} xs={3} className="justify-content-center h-100 p-0">
+      <Col
+        md={2}
+        xs={3}
+        className="justify-content-center h-100 p-0 border border-light"
+      >
         <Navbar
           bg="dark"
           variant="dark"

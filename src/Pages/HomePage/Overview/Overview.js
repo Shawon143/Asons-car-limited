@@ -5,7 +5,7 @@ import "./overview.css";
 const Overview = () => {
   return (
     <div>
-      <Container className="my-4">
+      <Container className="my-4 text-white">
         <h2>All the ways to find car chemistry</h2>
         <p className="my-3">
           We're your one-stop shop for buying and selling your car. Get matched

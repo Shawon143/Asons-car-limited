@@ -72,10 +72,10 @@ const Register = () => {
 
   return (
     <div>
-      <h2 className="mt-3">Sign Up With your Email</h2>
-      <Container className="text-start my-5 card login-card w-50">
-        <Form className="shadow p-4" onSubmit={handleRegistration}>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+      <h2 className="mt-3 text-white">Sign Up With your Email</h2>
+      <Container className="text-start py-5 bg-dark my-5 card login-card w-50">
+        <Form className="shadow p-4 text-white " onSubmit={handleRegistration}>
+          <Form.Group className="mb-3 " controlId="formBasicEmail">
             <Form.Label>Username</Form.Label>
             <Form.Control
               onBlur={handleNameChange}
@@ -115,7 +115,7 @@ const Register = () => {
           </p>
         </Form>
 
-        <h3 className="my-3 text-center">Or </h3>
+        <h3 className="my-3 text-center text-white">Or </h3>
         <Button>Google Sign in</Button>
       </Container>
     </div>

@@ -1,23 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
-// import SingleCar from "../SingleCar/SingleCar";
-import SingleReview from "./SingleReview";
+import SingleReview from "../../HomePage/HomeReview/SingleReview";
 
-const HomeReview = () => {
+const ProductReview = ({ car }) => {
   const [reviews, setReviews] = useState([]);
 
+  //   console.log(car.name);
+
   useEffect(() => {
-    fetch("https://secure-savannah-57360.herokuapp.com/reviews")
+    fetch(
+      `https://secure-savannah-57360.herokuapp.com/review?CarName=${car.name}`
+    )
       .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
+      .then((data) => {
+        setReviews(data);
+      });
+  }, [car.name]);
 
   return (
     <div>
-      <h1 className="text-white">Reviews </h1>
       <Container>
+        <h2>Product review</h2>
+
         <Row xs={1} md={3} className="g-4 mt-3">
-          {reviews.slice(0, 6).map((service) => (
+          {reviews.map((service) => (
             <SingleReview service={service} key={service.name}></SingleReview>
           ))}
         </Row>
@@ -26,4 +32,4 @@ const HomeReview = () => {
   );
 };
 
-export default HomeReview;
+export default ProductReview;

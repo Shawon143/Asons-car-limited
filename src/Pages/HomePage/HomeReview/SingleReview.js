@@ -10,7 +10,7 @@ const SingleReview = (props) => {
         <Card>
           <Card.Body>
             <Card.Title className="text-primary text-start">{name}</Card.Title>
-            <Card.Text className="fw-bold justify mb-0 ">
+            <Card.Text className="fw-bold text-dark justify mb-0 ">
               <h6>{details}</h6>
             </Card.Text>
             <Card.Text className="fw-bold justify mb-0 ">
