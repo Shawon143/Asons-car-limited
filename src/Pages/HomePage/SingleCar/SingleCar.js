@@ -8,13 +8,13 @@ const SingleCar = (props) => {
 
   return (
     <div>
-      <Col className="shadow mb-5 bg-body">
+      <Col className="shadow mb-4 bg-body">
         <Card>
           <Card.Img variant="top" src={img} className="card-img" />
           <Card.Body>
             <Card.Title className="text-primary">{name}</Card.Title>
-            <Card.Text className="fw-bold justify mb-0 ">
-              <h6>{details}</h6>{" "}
+            <Card.Text className="fw-bold justify mb-0 text-dark">
+              <h6>{details.slice(0, 100)}.</h6>
             </Card.Text>
             <Card.Text className=" justify text-danger">
               <h5> BDT : {price}</h5>

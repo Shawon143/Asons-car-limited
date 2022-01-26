@@ -40,6 +40,12 @@ const AddCar = () => {
           {...register("price")}
           placeholder="price "
         />
+        <input
+          className="form-control mb-3"
+          type="text"
+          {...register("catagory")}
+          placeholder="Catagory "
+        />
         <input type="submit" />
       </form>
     </div>

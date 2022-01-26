@@ -16,11 +16,13 @@ const Overview = () => {
           <Col>
             <Row>
               <Col md={2}>
-                <img
-                  className="overview_img"
-                  src="https://svgsilh.com/svg/1918554.svg"
-                  alt=""
-                />
+                <div className="bg-white">
+                  <img
+                    className="overview_img text-white"
+                    src="https://svgsilh.com/svg/1918554.svg"
+                    alt=""
+                  />
+                </div>
               </Col>
               <Col md={10}>
                 <h3 className="ms-3">Shop</h3>
@@ -40,11 +42,13 @@ const Overview = () => {
           <Col>
             <Row>
               <Col md={2}>
-                <img
-                  className="overview_img"
-                  src="https://svgsilh.com/svg_v2/35745.svg"
-                  alt=""
-                />
+                <div className="bg-white">
+                  <img
+                    className="overview_img"
+                    src="https://svgsilh.com/svg_v2/35745.svg"
+                    alt=""
+                  />
+                </div>
               </Col>
               <Col md={10}>
                 <h3 className="ms-3">Service & Repair</h3>
