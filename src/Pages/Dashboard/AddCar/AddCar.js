@@ -21,7 +21,7 @@ const AddCar = () => {
       <form onSubmit={handleSubmit(onSubmit)} className="my-5 w-50 mx-auto">
         <input
           className="form-control mb-3"
-          {...register("name", { required: true, maxLength: 20 })}
+          {...register("name")}
           placeholder="name"
         />
         <input

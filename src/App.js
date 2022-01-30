@@ -11,6 +11,7 @@ import Register from "./Pages/Register/Register";
 import AuthProvider from "./Context/AuthProvider";
 import PrivateRoute from "./Privateroute/PrivateRoute";
 import Dashboard from "./Pages/Dashboard/Dashboard/Dashboard";
+import Update from "./Pages/Dashboard/Update/Update";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <PrivateRoute path="/place/:carID">
               <PlaceOrder></PlaceOrder>
+            </PrivateRoute>
+            <PrivateRoute path="/dashboard/manageproducts/update/:id">
+              <Update></Update>
             </PrivateRoute>
             <PrivateRoute path="/dashboard">
               <Dashboard></Dashboard>

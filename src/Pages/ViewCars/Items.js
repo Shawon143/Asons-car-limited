@@ -40,22 +40,22 @@ const Items = ({ cars, load }) => {
         </Button> */}
       </InputGroup>
 
-      <Button className="mx-3" onClick={() => setItems(cars)}>
+      <Button className="my-2 mx-3" onClick={() => setItems(cars)}>
         All
       </Button>
-      <Button onClick={() => filter("honda")}>honda</Button>
-      <Button className="mx-3" onClick={() => filter("audi")}>
-        audi
+      <Button onClick={() => filter("honda")}>HONDA</Button>
+      <Button className="my-2 mx-3" onClick={() => filter("audi")}>
+        AUDI
       </Button>
-      <Button onClick={() => filter("mitsubishi")}>mitsubishi</Button>
-      <Button className="mx-3" onClick={() => filter("toyota")}>
-        toyota
+      <Button onClick={() => filter("mitsubishi")}>MITSUBISHI</Button>
+      <Button className="my-2 mx-3" onClick={() => filter("toyota")}>
+        TOYOTA
       </Button>
-      <Button onClick={() => filter("kia")}>kia</Button>
-      <Button className="mx-3" onClick={() => filter("hyundai")}>
-        hyundai
+      <Button onClick={() => filter("kia")}>KIA</Button>
+      <Button className="my-2 mx-3" onClick={() => filter("hyundai")}>
+        HYUANDAI
       </Button>
-      <Button onClick={() => filter("nissan")}>nissan</Button>
+      <Button onClick={() => filter("nissan")}>NISSAN</Button>
 
       {load ? (
         <Row xs={1} md={4} className="g-4 mt-3">

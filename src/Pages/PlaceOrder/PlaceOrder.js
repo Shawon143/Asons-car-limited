@@ -55,11 +55,11 @@ const PlaceOrder = () => {
     <div className="single_service">
       <h1 className="text-white">Place Order</h1>
       <Container className="my-2">
-        <Row>
+        <Row xs={1} md={2}>
           <Col>
-            <Row>
-              <h2 className="justify mb-5 text-white"> Your Booking </h2>
-              <Col>
+            <h2 className="justify mb-5 text-white"> Your Booking </h2>
+            <Row xs={1} md={2}>
+              <Col className="mb-2">
                 <img src={car.img} alt="" />
               </Col>
               <Col className="justify text-white">
@@ -68,7 +68,7 @@ const PlaceOrder = () => {
                 <h5>
                   BDT <span className="text-danger">{car.price}</span>
                 </h5>
-                <Button variant="primary" onClick={handleShow}>
+                <Button variant="primary my-3" onClick={handleShow}>
                   Submit Reviews
                 </Button>
 
